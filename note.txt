@@ -1,0 +1,13 @@
+doit pouvoir garder en mémoire la note de chaque réponse.
+
+
+attention, il faut pouvoir prendre en compte les réponses non répondu
+
+aussi, il faut mélanger l'ordre des réponses, à chaque lancement une question
+
+notations 3
+"""
+        Piste a explorer : loi de proba à paramètre variable
+        calculer le taux de réponse global et faire une somme à 1 (plus
+        la somme > 1 plus le taux de réponses entré était aléatoire et inversement l'opposé)
+        """
