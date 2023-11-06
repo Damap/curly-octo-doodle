@@ -28,3 +28,12 @@ def quoting(answer, q, d):
         #à coder
         return True
 
+def is_random(times):
+    for time in times:
+        if abs(times[0] - time) > 1:
+            #Si la valeur est plus grande que 0.5 on retourne False (ce n'est pas aléatoire)
+            return False
+    #Si la valeur est plus petite que 0.5 on retourne True (c'est aléatoire)
+    return True
+
+
